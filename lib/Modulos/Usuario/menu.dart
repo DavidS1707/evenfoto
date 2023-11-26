@@ -1,6 +1,5 @@
 // ignore_for_file: prefer_const_constructors, prefer_const_constructors_in_immutables, use_build_context_synchronously
 
-import 'package:evenfoto/Modulos/Notificacion/notification_screen.dart';
 import 'package:evenfoto/Modulos/Usuario/login.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
