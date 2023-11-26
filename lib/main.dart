@@ -1,8 +1,8 @@
 // ignore_for_file: library_private_types_in_public_api
 
-import 'package:evenfoto/Api/auth_services.dart';
 import 'package:evenfoto/Api/firebase_api.dart';
 import 'package:evenfoto/Modulos/Notificacion/notification_screen.dart';
+import 'package:evenfoto/Modulos/Usuario/login.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
@@ -27,7 +27,7 @@ class _MyAppState extends State<MyApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Inicio(
+      home: LoginPage(
         userName: '',
         userEmail: '',
       ),

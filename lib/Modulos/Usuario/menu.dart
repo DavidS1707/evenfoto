@@ -70,8 +70,8 @@ class Inicio extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
-                _buildGridItem(context, 'Ver las fotos en las que aparezco',
-                    Icons.photo_library, () {
+                _buildGridItem(context, 'Ver mis fotos', Icons.photo_library,
+                    () {
                   // Navigator.of(context).push(
                   //   MaterialPageRoute(
                   //     builder: (BuildContext context) => CameraView(
@@ -79,14 +79,6 @@ class Inicio extends StatelessWidget {
                   //     ),
                   //   ),
                   // );
-                }),
-                _buildGridItem(
-                    context, 'Notificaciones', Icons.notification_add, () {
-                  Navigator.of(context).push(
-                    MaterialPageRoute(
-                      builder: (BuildContext context) => NotificationScreen(),
-                    ),
-                  );
                 }),
               ],
             ),
